@@ -17,6 +17,3 @@ yarn-error.log*
 # Temporary files
 tmp/
 *.temp
-
-# CSV data
-transaction.csv
