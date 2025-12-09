@@ -8,7 +8,7 @@ import axios from "axios";
 export const fetchTransactions = async (filters = {}) => {
   try {
     // Axios handles query params safely
-    const res = await axios.get("http://localhost:5000/api/transactions", {
+    const res = await axios.get("https://realestate-5-r482.onrender.com/api/transactions", {
       params: {
         search: filters.search || "",
         PhoneNumber: filters.PhoneNumber || "",
